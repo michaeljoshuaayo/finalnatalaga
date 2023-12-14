@@ -387,7 +387,7 @@ return (
       <Navbar bg="danger" variant="dark" expand="lg" className='fixed-top'>
       <Navbar.Brand href="#home" className='mx-5 col-5 mb-2 navbar-brand-with-font d-flex align-items-center'>
   <div>
-  <img src={JollibeLogo} alt="Jollibe Logo" width="210" height="60" />
+  <img src={JollibeLogo} alt="Jollibe Logo" width="190" height="50" />
  
   </div>
 </Navbar.Brand>
@@ -421,7 +421,7 @@ return (
                 <Modal.Title>Add Product</Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                <form onSubmit={handleProductSubmit}>
+                <form onSubmit={handleProductSubmit} >
                   <div className="mb-3">
                     <label htmlFor="productName" className="form-label">
                       Product Name
