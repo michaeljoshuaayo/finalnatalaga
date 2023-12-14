@@ -627,6 +627,7 @@ return (
                   value={buyerName}
                   onChange={(e) => setBuyerName(e.target.value)}
                   className="form-control"
+                  placeholder='Enter Name Here'
                 />
               </div>
             </form>
